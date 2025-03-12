@@ -1,0 +1,4 @@
+def count_vowels(word):
+    vowels = "aeiouAEIOU"
+    s=input("enter a word")
+    return sum(1 for char in s if char in vowels)
