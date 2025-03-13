@@ -1,0 +1,22 @@
+isha=[2.3,4.5,6.7,4,6,7]
+print(isha[0])
+print(isha[2])
+isha[0]=3.3
+print(isha)
+print(isha.append(3.4))
+print(isha)
+print("lenth =",len(isha))
+print("after pop=",isha.pop(2))
+print(isha)
+print("after insert= ", isha.insert(1,6.6))
+print(isha)
+print("after sort= ", isha.sort())
+print(isha)
+print("after reverse= ", isha.reverse())
+print(isha)
+print("after remove= ", isha.remove(4.5))
+print(isha)  
+for i in isha:
+    print(i)
+isha.clear()
+print(isha)
